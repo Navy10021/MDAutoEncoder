@@ -81,7 +81,7 @@ For more information about model training and detection, see the Jupyter noteboo
 
 ## 📊 Performance Metrics
 The performance of the anomaly detection model was evaluated by the AUC value of the ROC bulletproof. 
-In Figure LEFT, the best performance is an AUC value of 1.0, indicating complete size change. Additionally, on the right side of the figure, the MDAuto-Encoder model indicates whether or not the handle is coded. These results mean that the proposed anomaly detection model maintains consistently high performance even under various lever values.
+In Figure LEFT, the best performance is an AUC value of 1.0, indicating complete size change. Additionally, in Figure RIGHT, the MDAuto-Encoder model indicates whether or not the handle is coded. These results mean that the proposed anomaly detection model maintains consistently high performance even under various lever values.
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/4bb1264e-5553-45d1-90eb-fca8f448d079)
 
 
