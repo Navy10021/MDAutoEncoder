@@ -9,14 +9,27 @@ For malware detection, we have designed two high-performance models: a CNN-based
 ## 📚 Table of Contents
 
 - [Introduction](#introduction)
+- [Dataset](#-dataset)
 - [Architecture](#architecture)
 - [Training Process](#training-process)
 - [Detection Process](#detection-process)
 - [Performance Metrics](#performance-metrics)
 - [Visualization](#visualization)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Paper](#-paper)
+- [Contributors](#-contributors)
+
+## 📊 Dataset
+
+Our models are trained on diverse malware image datasets, designed to challenge and test the robustness of MDResNet:
+
+- **MalwarePix-small**: 3,915 images, derived from 12,000 base samples across 9 classes, using undersampling to ensure equity.
+- **MalwarePix-medium**: 13,254 images, enhanced with data augmentation for richer training data.
+- **MalwarePix-large**: Our largest dataset with 26,478 images, providing the depth needed for comprehensive model training.
+
+Refer to the Jupyter notebook in [notebooks/Malware_Dataset.ipynb](notebooks/Malware_Dataset.ipynb) for more details.
+![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/306185ba-9b86-4b37-8734-30786af5d20b)
+
 
 ## 🧩 Architecture
 
@@ -77,11 +90,14 @@ $ python code/train.py
 ```
 3. **Anomaly Detection**: Use the trained model to reconstruct new data points and calculate the reconstruction error to detect anomalies.
 
-## 🤝 Contributing
+## 📚 Paper
 
-Contributions to the MDAuto-Encoder project are welcome! Please follow these steps to contribute:
+- 📝 ***심층 신경망 아키텍처를 활용한 차세대 악성코드 탐지 기법에 관한 연구: 악성코드 시각화 및 탐지모델 MDDenseResNet 개발***
+- 📝 ***Next-Generation Malware Detection Techniques Using Deep Neural Network Architectures: Development of the Malware Visualization and Detection Model MDDenseResNet***
 
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature/your-feature-name
+## 👨‍💻 Contributors
+- **Seoul National University Graduate School of Data Science (GSDS)**
+- Under the guidance of ***Navy Lee***
+
+## 📜 License
+This project is licensed under the MIT License. See the LICENSE file for details.
