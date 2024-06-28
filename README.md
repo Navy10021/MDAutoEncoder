@@ -62,9 +62,15 @@ Both architectures are trained to minimize the reconstruction error, typically m
 
 During the training phase, the MDAuto-Encoder is trained on non-anomalous (normal) data. The objective is to learn the normal patterns and features of the input data to accurately reconstruct it.
 
+![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/862f457f-ff99-430e-9d9a-7d7c563e26d4)
+
+
 ## 🔍 Detection Process
 
 In the detection phase, the trained MDAuto-Encoder is used to reconstruct new data points. The reconstruction error for each data point is calculated, and data points with high reconstruction errors are considered anomalies.
+
+![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/97772f00-8f91-47f4-a3fe-fd3c270ca9d0)
+
 
 ## 📊 Performance Metrics
 The performance of the anomaly detection model was evaluated by the AUC value of the ROC bulletproof. 
