@@ -71,7 +71,7 @@ In the detection phase, the trained MDAuto-Encoder is used to reconstruct new da
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/97772f00-8f91-47f4-a3fe-fd3c270ca9d0)
 
 
-For more information about model training and detection, see the Jupyter notebook in [notebooks/Malware_Dataset.ipynb](notebooks/Malware_Dataset.ipynb).
+For more information about model training and detection, see the Jupyter notebook in [notebooks/MDAutoEncoder.ipynb](notebooks/MDAutoEncoder.ipynb).
 
 
 ## 📊 Performance Metrics
