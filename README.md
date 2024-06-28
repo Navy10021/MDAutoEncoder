@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌟 MDAuto-Encoder : Anomaly Detection AutoEncoder Model for Malware Detection
+# 🔗 MDAuto-Encoder : Anomaly Detection AutoEncoder Model for Malware Detection
 
 </div>
 
