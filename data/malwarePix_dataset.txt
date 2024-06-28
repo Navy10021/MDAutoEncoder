@@ -1,0 +1,3 @@
+#malwarePix-small
+#malwarePix-medium
+#malwarePix-large
