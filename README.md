@@ -98,6 +98,10 @@ $ python code/dataset.py
 $ python code/train.py
 ```
 3. **Anomaly Detection**: Use the trained model to reconstruct new data points and calculate the reconstruction error to detect anomalies.
+4. If you want to see all steps at once, run the code below.
+```python
+$ python code/mdautoencoder.py
+```
 
 ## 📚 Paper
 
