@@ -25,7 +25,7 @@ For malware detection, we have designed two high-performance models: a CNN-based
 
 ## 📊 Dataset
 
-Our models are trained on diverse malware image datasets, designed to challenge and test the robustness of MDResNet:
+Our models are trained on diverse malware image datasets, designed to challenge and test the robustness of MDAuto-Encoder:
 
 - **MalwarePix-small**: 3,915 images, derived from 12,000 base samples across 9 classes, using undersampling to ensure equity.
 - **MalwarePix-medium**: 13,254 images, enhanced with data augmentation for richer training data.
