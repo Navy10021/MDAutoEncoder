@@ -1,6 +1,6 @@
-# 🌟 MDAuto-Encoder: Anomaly Detection for Malware 🌟
+# 🌟 MDAuto-Encoder: Anomaly Detection AutoEncoder Model for Malware Detection 🌟
 
-## Introduction
+## 📑 Project Overview
 
 Anomaly Detection is a critical field in data analysis that aims to identify rare and abnormal points or patterns, known as anomalies or outliers, within normal data. The MDAuto-Encoder leverages deep learning techniques, specifically autoencoders, to effectively detect these anomalies using unsupervised learning methods.
 
@@ -8,7 +8,6 @@ For malware detection, we have designed two high-performance models: a CNN-based
 
 ## 📚 Table of Contents
 
-- [Introduction](#introduction)
 - [Dataset](#-dataset)
 - [Architecture](#architecture)
 - [Training Process](#training-process)
