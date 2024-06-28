@@ -67,10 +67,12 @@ A comparison between the original malware image and the image reconstructed by t
 
 To use the MDAuto-Encoder for anomaly detection, follow these steps:
 
-1. **Data Preparation**: Prepare your dataset, ensuring it includes labeled normal and anomalous data for evaluation purposes. ```python
+1. **Data Preparation**: Prepare your dataset, ensuring it includes labeled normal and anomalous data for evaluation purposes.
+```python
 $ python code/dataset.py
 ```
-2. **Model Training**: Train the MDAuto-Encoder on the normal data.```python
+2. **Model Training**: Train the MDAuto-Encoder on the normal data.
+```python
 $ python code/train.py
 ```
 3. **Anomaly Detection**: Use the trained model to reconstruct new data points and calculate the reconstruction error to detect anomalies.
