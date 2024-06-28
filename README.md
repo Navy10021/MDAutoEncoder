@@ -114,7 +114,7 @@ $ python code/mdautoencoder.py
 - 📝 ***Next-Generation Malware Detection Techniques Using Deep Neural Network Architectures: Development of the Malware Visualization and Detection Model MDDenseResNet***
 
 ## 👨‍💻 Contributors
-- **Seoul National University Graduate School of Data Science (GSDS)**
+- **Seoul National University Graduate School of Data Science (SNU GSDS)**
 - Under the guidance of ***Navy Lee***
 
 ## 📜 License
