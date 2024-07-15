@@ -111,7 +111,7 @@ $ python code/mdautoencoder.py
 ## 📚 Paper
 
 - 📝 ***심층 신경망 아키텍처를 활용한 차세대 악성코드 탐지 기법에 관한 연구: 악성코드 시각화 및 탐지모델 MDDenseResNet 개발***
-- 📝 ***Next-Generation Malware Detection Techniques Using Deep Neural Network Architectures: Development of the Malware Visualization and Detection Model MDDenseResNet***
+- 📝 ***Deep Neural Networks for Next-Generation Malware Detection: Malware Visualization Techniques and High-Performance Classification / Anomaly Detection Models***
 
 ## 👨‍💻 Contributors
 - **Seoul National University Graduate School of Data Science (SNU GSDS)**
