@@ -31,10 +31,12 @@ Our models are trained on diverse malware image datasets, designed to challenge 
 - **MalwarePix-medium**: 13,254 images, enhanced with data augmentation for richer training data.
 - **MalwarePix-large**: Our largest dataset with 26,478 images, providing the depth needed for comprehensive model training.
 
-Refer to the Jupyter notebook in [notebooks/Malware_Dataset.ipynb](notebooks/Malware_Dataset.ipynb) for more details.
+**You can download the dataset from the following Google Drive folder:**
+📁 [Download MalwarePix](https://drive.google.com/drive/folders/1d6pnDUoJt7tDYyCFxDcDiTYa-2TdVn7N)
 
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/f78503a1-50a2-48ce-b2f9-3a13b3a7e187)
 
+Refer to the Jupyter notebook in [notebooks/Malware_Dataset.ipynb](notebooks/Malware_Dataset.ipynb) for more details.
 
 ## 🧩 Architecture
 
