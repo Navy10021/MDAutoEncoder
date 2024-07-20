@@ -36,7 +36,6 @@ Our models are trained on diverse malware image datasets, designed to challenge 
 
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/f78503a1-50a2-48ce-b2f9-3a13b3a7e187)
 
-Refer to the Jupyter notebook in [notebooks/Malware_Dataset.ipynb](notebooks/Malware_Dataset.ipynb) for more details.
 
 ## 🧩 Architecture
 
