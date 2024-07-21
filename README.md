@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔗 MDAuto-Encoder : Anomaly Detection AutoEncoder Model for Malware Detection
+# 🔗 MDAuto-Encoder: Anomaly Detection AutoEncoder Model for Malware Detection
 
 </div>
 
@@ -14,14 +14,15 @@ For malware detection, we have designed two high-performance models: a CNN-based
 ## 📚 Table of Contents
 
 - [Dataset](#-dataset)
-- [Architecture](#architecture)
+- [Architecture](#-architecture)
 - [Training Process](#training-process)
-- [Detection Process](#detection-process)
+- [Detection Process](#-detection-process)
 - [Performance Metrics](#performance-metrics)
 - [Visualization](#visualization)
 - [Usage](#usage)
-- [Paper](#-paper)
+- [Paper & Related Project](#-paper--related-project)
 - [Contributors](#-contributors)
+- [License](#-license)
 
 ## 📊 Dataset
 
@@ -81,13 +82,13 @@ For more information about model training and detection, see the Jupyter noteboo
 
 
 ## 📊 Performance Metrics
-The performance of the anomaly detection model was evaluated by the AUC value of the ROC bulletproof. 
+The AUC value of the ROC bulletproof evaluated the performance of the anomaly detection model. 
 In Figure LEFT, the best performance is an AUC value of 1.0, indicating complete size change. Additionally, in Figure RIGHT, the MDAuto-Encoder model indicates whether or not the handle is coded. These results mean that the proposed anomaly detection model maintains consistently high performance even under various lever values.
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/4bb1264e-5553-45d1-90eb-fca8f448d079)
 
 
 ## 📈 Visualization
-A comparison between the original malware image and the image reconstructed by the MDAuto-Encoder model. The high similarity demonstrates the model's strong reconstruction capabilities and its potential for effective anomaly detection.
+A comparison between the original malware image and the image reconstructed by the MDAuto-Encoder model. The high similarity demonstrates the model's strong reconstruction capabilities and potential for effective anomaly detection.
 ![image](https://github.com/Navy10021/MDAutoEncoder/assets/105137667/8ac3f901-0fd0-4210-807a-3341468bfc5f)
 
 
@@ -95,7 +96,7 @@ A comparison between the original malware image and the image reconstructed by t
 
 To use the MDAuto-Encoder for anomaly detection, follow these steps:
 
-1. **Data Preparation**: Prepare your dataset, ensuring it includes labeled normal and anomalous data for evaluation purposes.
+1. **Data Preparation**: Prepare your dataset, ensuring it includes labeled normal and abnormal data for evaluation purposes.
 ```python
 $ python code/dataset.py
 ```
