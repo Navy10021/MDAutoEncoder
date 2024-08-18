@@ -1,3 +1,5 @@
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:C0C0C0,50:A9A9A9,100:808080&height=300&section=header&text=MDAutoEncoder&fontColor=00008B&fontSize=110&fontAlignY=40&fontAlign=50&animation=fadeIn&fontStyle=stroke)
+
 <div align="center">
 
 # 🔗 MDAuto-Encoder: Anomaly Detection AutoEncoder Model for Malware Detection
