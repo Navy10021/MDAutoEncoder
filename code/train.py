@@ -1,13 +1,11 @@
 
 import torch.optim as optim
 import torch.nn.functional as F
-from torchvision import datasets, transforms, utils
-from torch.utils.data import DataLoader
-import matplotlib.pyplot as plt
 from sklearn.manifold import TSNE
 from sklearn.metrics import roc_curve, auc
-import numpy as np
 from tqdm import tqdm
+
+from ----- import *
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
