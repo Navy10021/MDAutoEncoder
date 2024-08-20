@@ -1,10 +1,8 @@
 
 import torch.optim as optim
-import torch.nn.functional as F
 from sklearn.manifold import TSNE
 from sklearn.metrics import roc_curve, auc
 from tqdm import tqdm
-
 from code.autoencoder import *
 from code.dataset import *
 
