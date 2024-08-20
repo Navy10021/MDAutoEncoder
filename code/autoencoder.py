@@ -1,8 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.optim as optim
 import torch.nn.functional as F
-from torchvision import datasets, transforms, utils
 
 
 # CNN based Auto-Encoder model
@@ -88,4 +86,6 @@ class ResNetAutoencoder(nn.Module):
         x = self.encoder(x)
         x = self.decoder(x)
         return x
+
+
 
