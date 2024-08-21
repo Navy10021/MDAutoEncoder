@@ -3,7 +3,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 
-# CNN based Auto-Encoder model
+# CNN-based-AutoEncoder model
 class CNNAutoencoder(nn.Module):
     def __init__(self):
         super(CNNAutoencoder, self).__init__()
@@ -56,7 +56,7 @@ class ResidualBlock(nn.Module):
         return out
 
 
-# ResNet based Auto-Encoder model
+# ResNet-based-AutoEncoder model
 class ResNetAutoencoder(nn.Module):
     def __init__(self):
         super(ResNetAutoencoder, self).__init__()
