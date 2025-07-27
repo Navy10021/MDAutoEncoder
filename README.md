@@ -6,7 +6,7 @@
 
 </div>
 
-
+#### 국방부 주관 '2025년 국방과 보안' 우수 논문상 수상
 ## 📑 Project Overview
 
 Anomaly Detection is a critical field in data analysis that aims to identify rare and abnormal points or patterns, known as anomalies or outliers, within normal data. The **MDAutoEncoder** leverages deep learning techniques, specifically autoencoders, to effectively detect these anomalies using unsupervised learning methods.
